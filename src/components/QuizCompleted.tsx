@@ -1,4 +1,4 @@
-import { useQuiz } from '@/pages/QuizContext';
+import { useQuiz } from '@/QuizContext';
 import React from 'react';
 import Button from './Button';
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { toast } from 'react-toastify';
-import { useQuiz } from '@/pages/QuizContext';
+import { useQuiz } from '@/QuizContext';
 import Button from './Button';
 import Progress from './Progress';
 import QuizCompleted from './QuizCompleted';

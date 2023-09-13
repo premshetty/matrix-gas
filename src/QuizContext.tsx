@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
-import mathQuiz from '../components/quizData'
+import mathQuiz from './components/quizData'
 
 type QuizQuestion = {
     question: string;

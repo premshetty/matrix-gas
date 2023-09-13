@@ -1,4 +1,4 @@
-import { QuizProvider } from './QuizContext'
+import { QuizProvider } from '../QuizContext'
 import HomePage from '@/components/Home';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
