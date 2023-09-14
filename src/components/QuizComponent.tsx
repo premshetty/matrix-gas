@@ -50,10 +50,10 @@ const QuizComponent = () => {
                 className='p-5 h-screen bg-cover bg-no-repeat md:p-20'
             >
                 <div className='flex gap-3 flex-row items-center mb-6 md:-mt-14 justify-between'>
-                    <p className='text-center mt-5 text-xs md:text-base'>
+                    <p className='text-center text-white mt-5 text-xs md:text-base'>
                         Score: {score}
                     </p>
-                    <div className='text-center mt-5 text-xs md:text-base'>
+                    <div className='text-center mt-5 text-white text-xs md:text-base'>
                         Time Left: {secondsRemaining} seconds
                     </div>
                     <Button
@@ -65,7 +65,7 @@ const QuizComponent = () => {
                 <Progress />
 
                 <div className='flex flex-col justify-around items-center h-full'>
-                    <p className='text-3xl lg:text-5xl text-center leading-snug font-bold'>
+                    <p className='text-3xl lg:text-5xl text-center text-white leading-snug font-bold'>
                         {`${currentQuestionIndex + 1})  ${question.question}`}
                     </p>
                     <div className='flex flex-wrap gap-x-10 gap-y-4 items-center justify-center'>

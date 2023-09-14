@@ -22,7 +22,7 @@ const Button: React.FC<ButtonProps> = ({ color, name, onClick, disabled }) => {
             onClick={onClick}
             value={name}
             disabled={disabled}
-            className={`group min-w-[100px]  relative inline-flex items-center px-2.5 py-1.5 rounded shadow-lg outline-none ${buttonColor} text-sm text-white font-medium transition-all duration-200 ease-out hover:text-${color}-500 hover:bg-transparent hover:shadow-none active:top-0.5 focus:outline-none`}
+            className={`group min-w-[100px] text-white  relative inline-flex items-center px-2.5 py-1.5 rounded shadow-lg outline-none ${buttonColor} text-sm text-white font-medium transition-all duration-200 ease-out hover:text-${color}-500 hover:bg-transparent hover:shadow-none active:top-0.5 focus:outline-none`}
         >
             <span className={`absolute h-0 w-0.5 right-0 top-0 ${buttonColor} transition-all duration-500 ease-out group-hover:h-full`} aria-hidden="true" />
             <span className={`absolute left-0 bottom-0 ${buttonColor} transition-all duration-500 ease-out w-0.5 h-0 group-hover:h-full`} aria-hidden="true" />
